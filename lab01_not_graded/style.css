@@ -1,0 +1,54 @@
+h1, h2, p{
+    color: rgb(40, 40, 57);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+
+}
+body{
+    background-color: rgb(244, 245, 246);
+}
+#heading01{
+    color: blue;
+    text-decoration: underline rgb(78, 75, 221) solid 5px;
+}
+
+
+
+table, th, td{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+a:hover {
+  color: orange;
+}
+
+.parent{
+    padding: 4px ;
+    border: 4px solid red;
+    margin:auto;
+}
+.child{
+    display: block;
+    width: 10px;
+    padding: 20px;
+    border: 2px solid blue;
+    margin: 40px;
+    text-align: center;
+
+}
+
+.child02 {
+    width: 50%;
+    /* align-self: center; */
+    /* float: right; */
+    padding: 2px;
+    margin: auto;
+    display: block;
+    border: 4px solid rgb(32, 7, 7);
+    border-radius: 3%;
+
+
+}
