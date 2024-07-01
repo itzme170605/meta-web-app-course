@@ -19,3 +19,29 @@ function listArrayItems(arr) {
 }
 
 listArrayItems(train1);
+
+//activity
+function letterfinder(word, match){
+    for(var i = 0; i < word.length; i++){
+        if(word[i] == match){
+            console.log("found the", match, 'at ',i)
+        }else{
+            console.log("No match found at",i)
+        }
+    }
+}
+
+letterfinder("test","e")
+
+// creating objects
+
+var user = {
+    username: "jj74875",
+    passwd: "12345",
+    name: "jatin",
+    age: 19,
+    socialSkill: 78,
+    greeting: "heyy"
+
+}
+console.log(user.name)
